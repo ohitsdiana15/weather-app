@@ -9,6 +9,7 @@
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
     <script src="https://kit.fontawesome.com/37ce650206.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
 </head>
 
 <body>
@@ -32,25 +33,23 @@
             <div class="current">
                 <div class="card border-info mb-3" style="max-width: 20rem;">
                     <div class="currentcity">
-                        <h3 id="main-city">
-                            Current City
+                        <h3 id="city"> </h3>
+                        <h3 class="todaydate" id="date">
+                            Day / Time
                         </h3>
                         </br>
                         <div class="container1">
                             <div class="row">
                                 <div class="col-4">
                                     <h4>
-                                        <p class="subtitle" id="todays-date">
-                                            Day
-                                            <br>
-                                            Time
+                                        <p>
+                                            Humidity <span id="humidity"> </span>%
                                         </p>
                                     </h4>
                                 </div>
                                 <div class="col-4">
                                     <h5>
                                         <span class="temperature" id="temperature">
-                                            18°C
                                         </span>
                                         </br>
                                         <span class="units">
@@ -61,8 +60,7 @@
                                 </div>
                                 <div class="col-4">
                                     <p>
-                                        Humidity <span id="humidity"> </span>
-                                        Wind <span id="wind"> </span>
+                                        Wind <span id="wind"> </span> Km/H
                                     </p>
                                 </div>
                             </div>

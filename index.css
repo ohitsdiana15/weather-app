@@ -1,0 +1,77 @@
+.card {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.search {
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  margin: 15px;
+}
+
+h4 {
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+}
+
+h5 {
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+}
+
+.temperature {
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 40px, 20px;
+  background-color: rgb(223, 245, 198);
+  color: rgb(0, 0, 0);
+  border: 2px solid #000000;
+}
+
+.form-group {
+  margin-left: 90px;
+}
+
+.name {
+  margin-top: 50px;
+}
+
+.card-body {
+  background-color: #b4e5e9;
+}
+
+.current {
+  background-color: #b4e5e9;
+  text-align: center;
+}
+
+.container1 {
+  background-color: rgb(223, 245, 198);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.currentcity {
+  background-color: rgb(223, 245, 198);
+}
